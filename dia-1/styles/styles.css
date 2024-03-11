@@ -1,0 +1,29 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: radial-gradient(circle at 50% 50%, #4c4c4c, #ffaaff);
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+}
+
+article {
+	max-width: 200px;
+	min-height: calc(width * 1.5);
+	background-color: #4c4c4c;
+	border: #ffaaff 1px solid;
+	border-top-right-radius: 24px;
+	border-bottom-left-radius: 24px;
+	padding: 10px 16px;
+	/* margin: auto; */
+}
+
+h1 {
+	color: #ffaaff;
+}
+
+p {
+	color: #ffaaffaa;
+}
