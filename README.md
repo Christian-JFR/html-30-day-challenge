@@ -28,7 +28,7 @@ HTML 30-day challenge by ManzDev
 
 ---
 
-7. [] Coloca una imagen en formato JPEG-XL. Si el navegador no la soporta, que use AVIF. Sino, que use JPG.
+7. [x] Coloca una imagen en formato JPEG-XL. Si el navegador no la soporta, que use AVIF. Sino, que use JPG.
 
 ---
 
