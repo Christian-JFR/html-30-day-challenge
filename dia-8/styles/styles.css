@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 65.5%;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	color: #fafafa;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #0f0f0f;
+	height: 100vh;
+}
+
+main {
+	margin: 0 auto;
+	width: 80vw;
+	h1 {
+		font-size: 3em;
+	}
+	p {
+		font-size: 1.8rem;
+	}
+	li {
+		font-size: 1.8rem;
+	}
+}
+p mark:nth-child(odd) {
+	background-color: #0099ff;
+}
+
+p mark:nth-child(even) {
+	background-color: #ffaaffaa;
+}
+
+li:nth-child(odd) mark {
+	background-color: #ff5;
+}
+
+li:nth-child(even) mark {
+	background-color: #5f5;
+}
